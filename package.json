@@ -1,0 +1,30 @@
+{
+  "name": "discord-widget",
+  "version": "1.0.0",
+  "description": "MIT License",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^2.1.14",
+    "simplebar": "^3.0.0-beta.5"
+  },
+  "devDependencies": {
+    "jquery": "^1.12.4",
+    "tippy.js": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node_modules/.bin/cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node_modules/.bin/cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node_modules/.bin/cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Venipa/discord-midget.git"
+  },
+  "author": "Venipa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Venipa/discord-midget/issues"
+  },
+  "homepage": "https://gitlab.com/Venipa/discord-midget#readme"
+}
