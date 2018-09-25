@@ -1,6 +1,6 @@
 # Discord Midget
 
-[![pipeline status](https://gitlab.com/Venipa/discord-midget/badges/master/pipeline.svg)](https://gitlab.com/Venipa/discord-midget/commits/master)
+[![pipeline status](https://gitlab.com/Venipa/discord-widget/badges/master/pipeline.svg)](https://gitlab.com/Venipa/discord-widget/commits/master)
 
 ![](https://i.mavis.moe/f/vOfYdHWT7E/nhklvwcxuyb243gif.gif)
 
